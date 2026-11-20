@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raumfinder – Web-Plattform · Volodymyr Manko</title>
+  <meta name="description" content="UX/UI Case Study: Raumfinder, eine SaaS-Plattform für private Vermieter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>:root{ --accent:#2563eb; --accent-soft:#dbeafe; }</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-mark">VM</span><span class="logo-text">Volodymyr Manko</span></a>
+    <div class="nav-links">
+      <a href="index.html#projekte">Projekte</a>
+      <a href="index.html#ueber-mich">Über mich</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </div>
+    <a href="index.html#kontakt" class="nav-cta">Kontakt aufnehmen</a>
+  </div>
+</nav>
+
+<main>
+  <header class="case-hero">
+    <div class="container">
+      <a href="index.html#projekte" class="back">← Alle Projekte</a>
+      <span class="eyebrow">03 · Web-Plattform · UX/UI Case Study</span>
+      <h1>Raumfinder – Mietverwaltung, einfach digital.</h1>
+      <p class="lead">Eine SaaS-Plattform, die private Vermieter vom ersten Inserat bis zum unterschriebenen Mietvertrag begleitet – übersichtlich, rechtssicher und DSGVO-konform.</p>
+      <div class="facts">
+        <div><span>Rolle</span><strong>UX/UI Design</strong></div>
+        <div><span>Umfang</span><strong>18 Screens · 31 Zustände</strong></div>
+        <div><span>Tools</span><strong>Figma · React · Tailwind CSS</strong></div>
+        <div><span>Ergebnis</span><strong>Klickbarer Prototyp</strong></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container reveal">
+    <div class="case-cover dark"><img src="img/web-hero.png" alt="Raumfinder Bewerberverwaltung im MacBook-Mockup"></div>
+  </div>
+
+  <section class="case-section">
+    <div class="container">
+      <span class="eyebrow">Ausgangslage</span>
+      <h2 style="margin-top:16px;max-width:820px">Vermietung ist Fleißarbeit – und oft unübersichtlich.</h2>
+      <div class="cols-3">
+        <div class="box reveal"><div class="bar"></div><h3>Das Problem</h3><p>Private Vermieter organisieren Bewerbungen, Besichtigungen und Unterlagen häufig über E-Mail, Tabellen und Papier. Informationen gehen verloren, Rückmeldungen dauern lange und sensible Daten werden nicht sauber gelöscht.</p></div>
+        <div class="box reveal"><div class="bar"></div><h3>Das Ziel</h3><p>Eine zentrale Plattform, die den gesamten Vermietungsprozess abbildet: vom Inserat über die Bewerberauswahl und Besichtigung bis zum Vertrag – mit klaren Abläufen und eingebautem Datenschutz.</p></div>
+        <div class="box reveal"><div class="bar"></div><h3>Die Zielgruppe</h3><p>Private Vermieter mit einer oder wenigen Wohnungen sowie kleine Hausverwaltungen, die professionell arbeiten möchten, ohne komplexe Branchensoftware einzuführen.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="container">
+      <span class="eyebrow">Prozess</span>
+      <h2 style="margin-top:16px">Vom Ablauf zum fertigen Interface</h2>
+      <p class="lead">Ich habe zuerst den gesamten Vermietungsprozess strukturiert und daraus Screens, Zustände und eine einheitliche Komponentenbibliothek abgeleitet.</p>
+      <div class="cols-4">
+        <div class="box reveal"><div class="step-num">01</div><h3>Analyse</h3><p>Anforderungen privater Vermieter, rechtliche Rahmenbedingungen (DSGVO, BGB) und typische Abläufe.</p></div>
+        <div class="box reveal"><div class="step-num">02</div><h3>Struktur</h3><p>Informationsarchitektur, Navigation und User Flows für alle 18 Bereiche.</p></div>
+        <div class="box reveal"><div class="step-num">03</div><h3>Design</h3><p>High-Fidelity-Screens, Zustände und ein konsistentes Designsystem.</p></div>
+        <div class="box reveal"><div class="step-num">04</div><h3>Prototyp</h3><p>Klickbarer Prototyp mit 31 Zuständen und eine Präsentation im MacBook-Mockup.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="container">
+      <span class="eyebrow">Kernfunktionen</span>
+      <h2 style="margin-top:16px">Sechs Bereiche, ein durchgängiges Erlebnis</h2>
+
+      <div class="feature reveal">
+        <div class="feature-img"><img src="img/web-dashboard.png" alt="Dashboard mit Aufgaben, Kennzahlen und Objekten"></div>
+        <div>
+          <span class="eyebrow">01 · Dashboard</span>
+          <h3>Alles Wichtige auf einen Blick</h3>
+          <p>Das Dashboard bündelt offene Aufgaben, Kennzahlen und anstehende Termine. Vermieter sehen sofort, wo Handlungsbedarf besteht – ohne zwischen Tabellen und Postfächern zu wechseln.</p>
+          <ul class="checks"><li>Priorisierte Aufgaben mit direkten Aktionen</li><li>KPI-Karten zu Inseraten, Bewerbungen und Terminen</li><li>Portfolio-Übersicht mit Belegungsquote</li></ul>
+        </div>
+      </div>
+
+      <div class="feature reverse reveal">
+        <div class="feature-img"><img src="img/web-inserate.png" alt="Inserate-Verwaltung mit Status-Tabs"></div>
+        <div>
+          <span class="eyebrow">02 · Inserate</span>
+          <h3>Inserate verwalten und veröffentlichen</h3>
+          <p>Alle Inserate mit Status, Portalen und Reichweite in einer Tabelle. Abgelehnte Inserate zeigen den Grund und einen klaren Lösungsweg.</p>
+          <ul class="checks"><li>Status-Tabs: Entwurf, In Prüfung, Veröffentlicht, Abgelehnt</li><li>Portal-Badges für ImmoScout24, Immowelt und Raumfinder</li><li>Hinweis auf fehlende Pflichtangaben (§ 87 GEG)</li></ul>
+        </div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="feature-img"><img src="img/web-dossier.png" alt="Bewerber-Dossier als Seitenpanel"></div>
+        <div>
+          <span class="eyebrow">03 · Bewerber</span>
+          <h3>Das Bewerber-Dossier</h3>
+          <p>Ein Seitenpanel fasst Selbstauskunft, Dokumente, Verlauf und Notizen zusammen. So lassen sich Bewerbungen schnell und nachvollziehbar prüfen.</p>
+          <ul class="checks"><li>Einkommen, Haushalt und SCHUFA-Status kompakt</li><li>Dokumentenstatus mit Prüfprotokoll</li><li>DSGVO-Hinweis mit automatischer Löschfrist</li></ul>
+        </div>
+      </div>
+
+      <div class="feature reverse reveal">
+        <div class="feature-img"><img src="img/web-kalender.png" alt="Besichtigungskalender in der Wochenansicht"></div>
+        <div>
+          <span class="eyebrow">04 · Besichtigungen</span>
+          <h3>Termine ohne Abstimmungschaos</h3>
+          <p>Ein Wochenkalender für Einzel- und Gruppentermine. Offene Anfragen lassen sich direkt einem freien Zeitfenster zuordnen.</p>
+          <ul class="checks"><li>Wochen-, Tages- und Monatsansicht</li><li>Gruppenbesichtigungen mit Teilnehmerstatus</li><li>Mini-Kalender und Anfragen-Widget</li></ul>
+        </div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="feature-img"><img src="img/web-dokumente.png" alt="Dokumententresor mit DSGVO-Löschfristen"></div>
+        <div>
+          <span class="eyebrow">05 · Dokumente</span>
+          <h3>Der DSGVO-Dokumententresor</h3>
+          <p>Verträge, Protokolle und Bewerberunterlagen liegen geordnet an einem Ort. Löschfristen werden sichtbar und rechtzeitig angekündigt.</p>
+          <ul class="checks"><li>Kategorien für Verträge, Protokolle und Nachweise</li><li>Tabelle mit anstehenden DSGVO-Löschungen</li><li>Vorlagen-Generator für Standarddokumente</li></ul>
+        </div>
+      </div>
+
+      <div class="feature reverse reveal">
+        <div class="feature-img"><img src="img/web-analysen.png" alt="Analysen und Vermieter-Score"></div>
+        <div>
+          <span class="eyebrow">06 · Analysen</span>
+          <h3>Entscheidungen auf Datenbasis</h3>
+          <p>Reichweite, Antwortzeiten und Bewertungen der Mieter werden verständlich aufbereitet – mit konkreten Tipps zur Verbesserung.</p>
+          <ul class="checks"><li>Zeitverlauf von Aufrufen, Merkungen und Anfragen</li><li>Vergleich der erfolgreichsten Objekte</li><li>Vermieter-Score mit Optimierungs-Tipps</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="container">
+      <span class="eyebrow">Designsystem</span>
+      <h2 style="margin-top:16px">Klar, ruhig und vertrauenswürdig</h2>
+      <p class="lead">Eine reduzierte Farbpalette, eine gut lesbare Schrift und wiederverwendbare Komponenten sorgen für Konsistenz über alle Screens.</p>
+      <div class="cols-3" style="grid-template-columns:1.3fr 1fr">
+        <div class="box reveal">
+          <h3>Farben</h3>
+          <div class="palette">
+            <div class="swatch"><div style="background:#0F172A"></div><strong>Slate 900</strong><span>#0F172A</span></div>
+            <div class="swatch"><div style="background:#2563EB"></div><strong>Blue 600</strong><span>#2563EB</span></div>
+            <div class="swatch"><div style="background:#10B981"></div><strong>Emerald 500</strong><span>#10B981</span></div>
+            <div class="swatch"><div style="background:#F8FAFC"></div><strong>Slate 50</strong><span>#F8FAFC</span></div>
+            <div class="swatch"><div style="background:#E2E8F0"></div><strong>Slate 200</strong><span>#E2E8F0</span></div>
+          </div>
+        </div>
+        <div class="box reveal">
+          <h3>Typografie</h3>
+          <div class="type-sample">Aa</div>
+          <strong>Plus Jakarta Sans</strong>
+          <p>Regular · Medium · SemiBold · Bold · ExtraBold</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="container">
+      <div class="learnings reveal">
+        <span class="eyebrow">Ergebnis</span>
+        <h2 style="margin:16px 0 0">Was ich mitnehme</h2>
+        <p class="lead" style="margin-top:20px">Das Projekt hat gezeigt, wie viel ein klares System bringt: Je früher Zustände, Komponenten und Regeln definiert sind, desto schneller und konsistenter entstehen neue Screens.</p>
+        <div class="cols-3">
+          <div class="box"><h3>Konsistenz zahlt sich aus</h3><p>Wiederkehrende Elemente wie Buttons, Badges und Karten habe ich als Komponenten angelegt und über alle Screens vereinheitlicht.</p></div>
+          <div class="box"><h3>Datenschutz ist UX</h3><p>DSGVO-Hinweise, Löschfristen und transparente Statusanzeigen schaffen Vertrauen – wenn sie verständlich und an der richtigen Stelle erscheinen.</p></div>
+          <div class="box"><h3>Zustände mitdenken</h3><p>Leere, fehlerhafte und abgeschlossene Zustände gehören von Anfang an dazu – sie machen aus Screens ein echtes Produkt.</p></div>
+        </div>
+        <div class="hero-actions">
+          <a href="https://www.figma.com/design/pGs8BO80EUpSAo9wGtHddE/Web-Platform-Wohnungsuchen?node-id=46-945" target="_blank" rel="noopener" class="btn btn-primary" style="background:#fff;color:#131313">In Figma ansehen <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <a href="mietklar.html" class="next-project">
+      <div><span>Nächstes Projekt</span><strong>MietKlar – Landing Page</strong></div>
+      <span class="btn btn-ghost">Ansehen <span class="arrow">→</span></span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <span>© <span data-year>2026</span> Volodymyr Manko</span>
+    <a href="mailto:moroz198385.2@gmail.com">moroz198385.2@gmail.com</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
