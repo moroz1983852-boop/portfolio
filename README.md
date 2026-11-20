@@ -1,20 +1,24 @@
 # Portfolio · Volodymyr Manko
 
-Сайт-портфоліо (UX/UI) з трьома кейсами: MietKlar (Landing Page), Mietraum (Mobile App), Raumfinder (Web-Plattform).
+UX/UI-Portfolio mit drei Case Studies aus meiner Weiterbildung an der Deutschen Tech Akademie (2026).
 
-## Структура
-- `index.html` — головна: hero, проєкти, про мене, контакт
-- `mietklar.html`, `mietraum.html`, `raumfinder.html` — кейси
-- `style.css`, `script.js` — стилі та анімації
-- `img/` — скріншоти з Figma
+**Live ansehen:** https://moroz1983852-boop.github.io/portfolio/
 
-## Як опублікувати на GitHub Pages
-1. На github.com → **New repository** → назва, напр. `portfolio` → Public → Create.
-2. **Add file → Upload files** → перетягни ВСІ файли й папку `img` з цієї папки → **Commit changes**.
-3. **Settings → Pages** → Source: *Deploy from a branch* → Branch: `main`, папка `/ (root)` → Save.
-4. Через 1–2 хв сайт буде тут: `https://moroz1983852-boop.github.io/portfolio/`
+## Projekte
+| Nr. | Projekt | Typ | Beschreibung |
+|---|---|---|---|
+| 01 | **MietKlar** | Landing Page | Marketing-Seite einer Mietplattform, die Mieter zum Download der App führt (Desktop + Mobile) |
+| 02 | **Mietraum** | Mobile App | App für Wohnungssuchende: Suche, Filter, Exposé, Chat und Besichtigungstermine (22 Screens) |
+| 03 | **Raumfinder** | Web-Plattform | SaaS-Plattform für private Vermieter: vom Inserat bis zum Mietvertrag, DSGVO-konform (18 Screens) |
 
-## Що перевірити перед здачею
-- У Figma для кожного файлу: **Share → Anyone with the link → can view**, інакше кнопки «In Figma ansehen» не відкриються.
-- Перечитай тексти кейсів — частину я дописав на основі брифу (позначено нижче).
-- За бажанням додай LinkedIn у розділ «Kontakt» в `index.html`.
+## Aufbau
+- `index.html` – Startseite: Einleitung, Projekte, Über mich, Kontakt
+- `mietklar.html`, `mietraum.html`, `raumfinder.html` – Case Studies
+- `style.css`, `script.js` – Gestaltung und Animationen
+- `img/` – Screenshots aus Figma
+
+## Tools
+Figma · HTML · CSS · JavaScript · Claude · GitHub Pages
+
+## Kontakt
+moroz198385.2@gmail.com · [GitHub](https://github.com/moroz1983852-boop)
